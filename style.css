@@ -1,0 +1,94 @@
+.hero-back {
+  background-color: #3468a6;
+}
+.hero-back p {
+  font-size: 40px;
+  color: #f5e0cd;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+#services h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.services div {
+  width: 350px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+@media only screen and (max-width: 700px) {
+  .hero-back img {
+    height: 100px;
+  }
+  .hero-back p {
+    font-size: 25px;
+  }
+}
+
+.product {
+  background-color: #e5e5e5;
+  padding: 15px;
+  text-align: center;
+}
+.product_image {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+.product_name {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+.product_name a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.grid-container {
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 40%;
+}
+
+.grid-item {
+  padding: 2rem;
+}
+.grid-item img {
+  width: 100%;
+  height: 20.625rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+  position: relative;
+}
+.caption {
+  background-color: #18335c;
+}
+@media only screen and (max-width: 800px) {
+  .grid-item img {
+    height: 15.625rem;
+  }
+  .col {
+    flex: 70%;
+  }
+}
