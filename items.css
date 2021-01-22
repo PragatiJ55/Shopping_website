@@ -28,7 +28,7 @@ ul {
   object-fit: cover;
   margin-right: 10px;
 }
-button {
+.cards button {
   height: 35px;
   width: 35px;
   margin: 5px;
